@@ -16,7 +16,9 @@ switch ($request) {
         echo "<h1>Welcome to the About page!</h1>";
         break;
     case '/':
-        echo "Welcome to the Default Home page!";
+        #echo "Welcome to the Default Home page!";
+        include"views/index.php";
+
         break;
     case "/page1":
         include"page1.php";
